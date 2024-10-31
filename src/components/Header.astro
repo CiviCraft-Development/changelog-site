@@ -1,0 +1,24 @@
+---
+import '../styles/global.scss';
+import { SiteTitle } from '../consts';
+---
+
+<header>
+    <nav>
+        <h2 id="site_title">
+            <a href="/">
+
+                {SiteTitle}
+            </a>
+        </h2>
+        <div class="links">
+            {/*<a href="https://www.github.com/CiviCraftDevelopment/changelog-site" target="_blank">GitHub</a>*/}
+        </div>
+    </nav>
+</header>
+
+<style>
+    .links a {
+        text-decoration: none;
+    }
+</style>
